@@ -1,36 +1,55 @@
-import React from 'react';
-import { NavLink } from 'react-bootstrap';
+import React from "react";
+import { NavLink } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import Banner from "../Banner/Banner";
 
 const Header = () => {
-    return (
-        <div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-    <NavLink class="navbar-brand" href="#">Navbar</NavLink>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <NavLink class="nav-link active" aria-current="page" href="#">Home</NavLink>
-        </li>
-        <li class="nav-item">
-          <NavLink class="nav-link" href="#">Services</NavLink>
-        </li>
-        <li class="nav-item">
-          <NavLink class="nav-link" href="#">About Us</NavLink>
-        </li>
-        <li class="nav-item">
-          <NavLink class="nav-link" href="#">Contact Us</NavLink>
-        </li>
-
-      </ul>
-    </div>
-  </div>
-</nav>
+  return (
+    <div>
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <div className="container">
+          <NavLink className="navbar-brand" href="#">
+            Navbar
+          </NavLink>
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul className="navbar-nav ms-auto">
+              <li className="nav-item">
+                <Link className="nav-link active" aria-current="page" to="/">
+                  Home
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/service">
+                  Services
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="about">
+                  About Us
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/contact">
+                  Contact Us
+                </Link>
+              </li>
+            </ul>
+          </div>
         </div>
-    );
+      </nav>
+    </div>
+  );
 };
 
 export default Header;
