@@ -69,6 +69,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
 
-# Website Name:
+# Website Name: [Education Buddies](https://education-buddies-rizvikhalid.netlify.app/)
 
-[Education Buddies]()
+# Purpose Of This Website:
+
+To sell Educational content to students.
