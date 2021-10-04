@@ -1,6 +1,4 @@
 import React from "react";
-import { NavLink } from "react-bootstrap";
-import './Footer.css';
 const Footer = () => {
   return (
     <>
@@ -17,8 +15,7 @@ const Footer = () => {
                     Company name
                   </h6>
                   <p>
-                    Here you can use rows and columns to organize your footer
-                    content. Lorem ipsum dolor sit amet, consectetur adipisicing
+                    Lorem ipsum dolor sit amet, consectetur adipisicing
                     elit.
                   </p>
                 </div>
@@ -27,20 +24,12 @@ const Footer = () => {
 
                 <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
                   <h6 className="text-uppercase mb-4 font-weight-bold">
-                    Products
+                    Services
                   </h6>
-                  <p>
-                    <NavLink className="text-white">MDBootstrap</NavLink>
-                  </p>
-                  <p>
-                    <NavLink className="text-white">MDWordPress</NavLink>
-                  </p>
-                  <p>
-                    <NavLink className="text-white">BrandFlow</NavLink>
-                  </p>
-                  <p>
-                    <NavLink className="text-white">Bootstrap Angular</NavLink>
-                  </p>
+                  <p className="text-white">Web Development</p>
+                  <p className="text-white">Mern Stack Development</p>
+                  <p className="text-white">Android Development</p>
+                  <p className="text-white">Wordpress</p>
                 </div>
 
                 <hr className="w-100 clearfix d-md-none" />
@@ -49,20 +38,10 @@ const Footer = () => {
                   <h6 className="text-uppercase mb-4 font-weight-bold">
                     Useful links
                   </h6>
-                  <p>
-                    <NavLink className="text-white">Your Account</NavLink>
-                  </p>
-                  <p>
-                    <NavLink className="text-white">
-                      Become an Affiliate
-                    </NavLink>
-                  </p>
-                  <p>
-                    <NavLink className="text-white">Shipping Rates</NavLink>
-                  </p>
-                  <p>
-                    <NavLink className="text-white">Help</NavLink>
-                  </p>
+                  <p className="text-white">Your Account</p>
+                  <p className="text-white">Become an Affiliate</p>
+                  <p className="text-white">Shipping Rates</p>
+                  <p className="text-white">Help</p>
                 </div>
 
                 <hr className="w-100 clearfix d-md-none" />
@@ -71,18 +50,10 @@ const Footer = () => {
                   <h6 className="text-uppercase mb-4 font-weight-bold">
                     Contact
                   </h6>
-                  <p>
-                    <i className="fas fa-home mr-3"></i> New York, NY 10012, US
-                  </p>
-                  <p>
-                    <i className="fas fa-envelope mr-3"></i> info@gmail.com
-                  </p>
-                  <p>
-                    <i className="fas fa-phone mr-3"></i> + 01 234 567 88
-                  </p>
-                  <p>
-                    <i className="fas fa-print mr-3"></i> + 01 234 567 89
-                  </p>
+                  <p>Uttara, Dhaka, Bangladesh</p>
+                  <p>info@gmail.com</p>
+                  <p>+880 1755567888</p>
+                  <p>+ 01 234 567 89</p>
                 </div>
               </div>
             </section>

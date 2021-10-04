@@ -4,20 +4,55 @@
     "name": "web development",
     "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     "price": 200,
-    "image": "https://devboattech.com/wp-content/uploads/2020/07/Web-development-designing-Anvar-Freelancer-1-2048x1434.png"
+    "image": "https://devboattech.com/wp-content/uploads/2020/07/Web-development-designing-Anvar-Freelancer-1-2048x1434.png",
+    "instructor": "Rizvi Khalid"
   },
   {
     "id": "2",
     "name": "Digital Marketing",
     "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    "price": 300,
-    "image": "https://tens360.com/wp-content/uploads/2020/01/DIGITAL-MARKETING.jpg"
+    "price": 100,
+    "image": "https://tens360.com/wp-content/uploads/2020/01/DIGITAL-MARKETING.jpg",
+    "instructor": "Nabil Hossain"
   },
   {
     "id": "3",
     "name": "Wordpress Development",
     "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    "price": 300,
-    "image": "https://www.seasiainfotech.com/blog/wp-content/uploads/2015/10/wordpress-website-development-1.png"
+    "price": 150,
+    "image": "https://www.seasiainfotech.com/blog/wp-content/uploads/2015/10/wordpress-website-development-1.png",
+    "instructor": "Moshuir Rahman"
+  },
+  {
+    "id": "4",
+    "name": "Mern Stack Development",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "price": 500,
+    "image": "https://www.rlogical.com/wp-content/uploads/2020/12/MERN-Stack-considered-the-Best-for-Developing-Web-Apps.png",
+    "instructor": "Jhankar Mahabub"
+  },
+  {
+    "id": "5",
+    "name": "Android Development",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "price": 400,
+    "image": "https://i.ytimg.com/vi/Iz08OTTjR04/maxresdefault.jpg",
+    "instructor": "Sumit Saha"
+  },
+  {
+    "id": "6",
+    "name": "Laravel",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "price": 250,
+    "image": "https://cms-assets.tutsplus.com/uploads/users/71/courses/854/preview_image/get-started-with-laravel-6-400x277.png",
+    "instructor": "Rabbil Rahman"
+  },
+  {
+    "id": "7",
+    "name": "Graphics Design",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "price": 350,
+    "image": "https://img.freepik.com/free-vector/graphic-design-colorful-geometrical-lettering_52683-34588.jpg?size=626&ext=jpg",
+    "instructor": "Rakin Ahsan"
   }
 ]

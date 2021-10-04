@@ -2,10 +2,10 @@ import React from "react";
 const ContactUS = () => {
   return (
     <div>
-      <h1 className="text-center">Contact Us</h1>
-      <div className="container">
-        <form className="p-5">
-          <div className="row p-5 mx-auto align-items-center">
+      <h1 className="text-center mt-5">Contact Us</h1>
+      <div className="container p-5">
+        <form className="mb-5">
+          <div className="row mx-auto align-items-center">
             <div className="col-md-6">
               <div className="form-group my-3">
                 <input

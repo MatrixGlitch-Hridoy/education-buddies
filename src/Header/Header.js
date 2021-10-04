@@ -1,16 +1,14 @@
 import React from "react";
-import { NavLink } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import Banner from "../Banner/Banner";
 
 const Header = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg navbar-dark" style={{ backgroundColor: "#45526e" }}>
         <div className="container">
-          <NavLink className="navbar-brand" href="#">
-            Navbar
-          </NavLink>
+          <Link className="navbar-brand" to="/">
+          Education Buddies
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -25,7 +23,7 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="/">
+                <Link className="nav-link active" aria-current="page" to="/home">
                   Home
                 </Link>
               </li>
