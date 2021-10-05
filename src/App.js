@@ -1,12 +1,12 @@
 import './App.css';
-import HomePage from './HomePage/HomePage';
+import HomePage from './Components/HomePage/HomePage';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
-import ContactUS from './Contact Us/ContactUS';
-import About from './About/About';
-import Header from './Header/Header';
-import Footer from './Footer/Footer';
-import ServicePage from './ServiceSection/ServicePage';
-import NotFound  from './NotFound/NotFound';
+import ContactUS from './Components/Contact Us/ContactUS';
+import About from './Components/About/About';
+import Header from './Components/Header/Header';
+import Footer from './Components/Footer/Footer';
+import ServicePage from './Components/ServiceSection/ServicePage';
+import NotFound  from './Components/NotFound/NotFound';
 function App() {
   return (
     <div>
