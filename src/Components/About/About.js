@@ -4,13 +4,13 @@ const About = () => {
   return (
     <div>
       <div className="container">
-        <div class="card text-center my-5">
-          <div class="card-header">
+        <div className="card text-center my-5">
+          <div className="card-header">
             <h1>Our Mission and Vision</h1>
           </div>
-          <div class="card-body">
-            <h5 class="card-title">Who We Are At Eduction Buddies</h5>
-            <p class="card-text">
+          <div className="card-body">
+            <h5 className="card-title">Who We Are At Eduction Buddies</h5>
+            <p className="card-text">
               With a mission to improve lives through learning, it's no surprise
               that we place tremendous emphasis on the role of learning in our
               own lives and work. We understand that learning isn't an
